@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <title>Sign up</title>
+        <style>
+        body {
+            background-image: url(1.jpg);
+            background-repeat: repeat-x;
+            background-size: 50% auto; 
+            background-attachment: fixed;
+        }
+        .log:hover{
+            cursor:pointer;
+        }
+        .submit {
+            margin: auto;
+            display: inline-block;
+            text-decoration: none;
+            font-weight: bolder;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            color: black;
+            border: 0px;
+            border-radius:20%;
+            padding: 7px 10px;
+            background-color: rgb(218, 120, 218);
+            margin-top:10px;
+            text-align:center;
+        }
+        .submit:hover{
+            cursor:pointer
+        }
+        table {
+            width:400px ;
+            height:800px;
+            margin:auto;
+            text-align:center;
+            border-radius:10%;
+            margin-top:30px;
+            background-color:rgba(194, 196, 196, 0.986)
+        }
+        input[type="text"],input[type="email"], input[type="password"] {
+            display: inline-block;
+            width: 80%;
+            height: 25px;
+            border: 0;
+            outline: 0;
+            border-bottom: 2px solid black;
+            background-color:rgba(194, 196, 196, 0.986)
+        }
+        input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus{
+           
+            border-bottom: 3px solid rgb(0, 217, 255);
+            
+        }
+
+        </style>
+
+    </head>
+    <body>
+        <form action="products.html" method="post">
+        <table>
+            <tr>
+                <td><img src="pass.png" ></td>
+            </tr>
+            <tr>
+                <td><input  type="text" required placeholder="Enter your username" name="username" class="fa"/></td>
+            </tr>
+
+            <tr>
+                <td><img src="mail.png" ></td>
+            </tr>
+
+            <tr>
+                <td><input  type="email" required placeholder="Enter your Email" name="email" class="fa"/></td>
+            </tr>
+
+            <tr>    
+                <td><img src="passs.png" ></td>
+            </tr>
+
+            <tr>
+                <td><input type="password" required placeholder="Enter your password" class="fa" name="pass" /></td>
+            </tr>
+
+            <tr>    
+                <td><img src="passs.png" ></td>
+            </tr>
+
+
+            <tr>
+                <td><input type="password" required placeholder="Rewrite your password" class="fa" name="cnfrmpass" /></td>
+            </tr>
+
+            <tr>
+                <th><input type="submit" value="sign up" class="submit"/></th>
+            </tr>
+        </form>
+        </table>
+    
+    </body>
+</html>
